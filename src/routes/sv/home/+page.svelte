@@ -1,13 +1,13 @@
 <svelte:head>
-    <title>Trulle123.se • Hem</title>
+    <title>Trulle123.se • Home</title>
 </svelte:head>
 
 <script lang="ts">
     import { onMount } from "svelte";
-    import { page } from '$app/stores';
+    import { page } from "$app/state";
     import { calculateAge, toggleLanguage, getLanguageLabel } from "$lib/main";
 
-    let yearsAgo = $state(15.099999999);
+    let yearsAgo = $state(15.888888888);
 
     onMount(() => {
         yearsAgo = calculateAge();
@@ -19,8 +19,8 @@
 </script>
 
 <main>
-    <a href={toggleLanguage($page.url.pathname)} class="lang-button">
-        {getLanguageLabel($page.url.pathname)}
+    <a href={toggleLanguage(page.url.pathname)} class="lang-button">
+        {getLanguageLabel(page.url.pathname)}
         <img src="https://cdn.hackclub.com/019e2be1-42bc-75c2-bed5-a02373a8d12f/globe.svg" alt="Globe" class="lang-globe">
     </a>
 
@@ -35,8 +35,6 @@
         </h1>
 
         <p class="header-tagline">Jag är en <span class="age">{yearsAgo.toFixed(9).replace(".", ",")}</span>-åring från Sverige som gillar programmering och fotografi.</p>
-        <br>
         <hr>
-        <br>
     </div>
 </main>
