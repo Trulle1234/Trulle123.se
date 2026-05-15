@@ -7,7 +7,7 @@
     import { goto } from "$app/navigation";
 
     onMount(() => {
-        goto("/en/home");
+        goto("/sv/home");
     });
 </script>
 
@@ -15,6 +15,6 @@
     <div class="hero">
         <h1 class="header">Trulle123.se</h1>
 
-        <p class="header-tagline">Redirecting to <a href="/en/home">trulle123.se/en/home</a>…</p>
+        <p class="header-tagline">Omdirigerar till <a href="/sv/home">trulle123.se/sv/home</a>…</p>
     </div>
 </main>

@@ -9,9 +9,10 @@
 
 body {
     background-color: var(--bg);
-    font-family: "Frank Ruhl Libre", serif;
+    
+    font-family: "JetBrains Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 00;
     font-style: normal;
     color: var(--text);
 }
@@ -39,8 +40,8 @@ body {
     position: absolute;
     z-index: -1;
     width: 55px;
-    right: -4.5px;
-    top: -6px;
+    right: -7px;
+    top: -5.5px;
 }
 
 .hero {
@@ -60,9 +61,9 @@ body {
 
 .wave-emoji {
     height: 45px;
-    width: 70px;
+    width: 65px;
     position: relative;
-    top: 3px;
+    top: 2px;
 }
 
 .header-tagline {

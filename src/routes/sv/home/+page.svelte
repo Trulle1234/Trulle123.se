@@ -26,7 +26,7 @@
 
     <div class="hero">
         <h1 class="header">
-            Hej, jag är Trulle123
+            Hallå, jag är Trulle123
             <img
                 src="https://emoji.slack-edge.com/T09V59WQY1E/hii/4de17234f4b1afe8.gif"
                 alt="Wave"
@@ -34,7 +34,7 @@
             />
         </h1>
 
-        <p class="header-tagline">Jag är en <span class="age">{yearsAgo.toFixed(9)}</span>-åring från Sverige som gillar programmering och fotografi.</p>
+        <p class="header-tagline">Jag är en <span class="age">{yearsAgo.toFixed(9).replace(".", ",")}</span>-åring från Sverige som gillar programmering och fotografi.</p>
         <br>
         <hr>
         <br>
