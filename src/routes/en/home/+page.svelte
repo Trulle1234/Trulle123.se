@@ -7,7 +7,7 @@
     import { page } from "$app/state";
     import { calculateAge, toggleLanguage, getLanguageLabel } from "$lib/main";
 
-    let yearsAgo = $state(15.099999999);
+    let yearsAgo = $state(15.888888888);
 
     onMount(() => {
         yearsAgo = calculateAge();
