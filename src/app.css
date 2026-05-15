@@ -1,0 +1,43 @@
+:root {
+    --bg-color: whitesmoke;
+    --fg-color: whitesmoke;
+}
+
+
+
+body {
+    background-color: var(--bg-color);
+    font-family: "Frank Ruhl Libre", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#hero {
+    margin: 0 auto;
+    width: 800px;
+    height: 1000000px;
+    padding: 10px 30px;
+
+    background-color: var(--fg-color)
+}
+
+#header {
+    font-size: 60px;
+    font-weight: 900;
+
+    margin-bottom: 0;
+}
+
+#header-tagline {
+    font-size: 30px;
+
+    margin: 0;
+}
+
+#wave-emoji {
+    height: 60px;
+    width: 80px;
+    position: relative;
+    top: 3px;
+}
