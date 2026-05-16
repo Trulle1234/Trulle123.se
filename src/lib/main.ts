@@ -18,3 +18,7 @@ export function toggleLanguage(pathname: string): string {
 export function getLanguageLabel(pathname: string): string {
     return pathname.includes('/en/') ? 'SV' : 'EN';
 }
+
+export function getDottedLine(pathname: string, href:string): string {
+    return pathname.includes(href) ? "dotted" : "none"
+}

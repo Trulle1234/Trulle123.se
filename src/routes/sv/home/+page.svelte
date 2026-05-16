@@ -5,9 +5,10 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import { page } from "$app/state";
-    import { calculateAge, toggleLanguage, getLanguageLabel } from "$lib/main";
+    import { calculateAge, toggleLanguage, getLanguageLabel, getDottedLine} from "$lib/main";
 
     let yearsAgo = $state(15.888888888);
+    let pathname = page.url.pathname
 
     onMount(() => {
         yearsAgo = calculateAge();
@@ -19,12 +20,22 @@
 </script>
 
 <main>
-    <a href={toggleLanguage(page.url.pathname)} class="lang-button">
-        {getLanguageLabel(page.url.pathname)}
-        <img src="https://cdn.hackclub.com/019e2be1-42bc-75c2-bed5-a02373a8d12f/globe.svg" alt="Globe" class="lang-globe">
-    </a>
-
     <div class="hero">
+        <div class="top-bar">
+            <div class="page-links">
+                <a href="/home" class="{getDottedLine(pathname, "home")}">Hem</a>
+                <a href="/about" class="{getDottedLine(pathname, "about")}">Om</a>
+                <a href="/projects" class="{getDottedLine(pathname, "projects")}">Projekt</a>
+                <a href="/blog" class="{getDottedLine(pathname, "blog")}">Blogg</a>
+                <a href="/contact" class="{getDottedLine(pathname, "contact")}">Kontakt</a>
+            </div>
+
+            <a href={toggleLanguage(pathname)} class="lang-button">
+                {getLanguageLabel(pathname)}
+                <img src="https://cdn.hackclub.com/019e2be1-42bc-75c2-bed5-a02373a8d12f/globe.svg" alt="Globe" class="lang-globe">
+            </a>
+        </div>
+
         <h1 class="header">
             Hallå, jag är Trulle123
             <img
