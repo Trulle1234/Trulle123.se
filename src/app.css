@@ -1,8 +1,10 @@
 :root {
     --bg: white;
     --fg: whitesmoke;
+
     --text: #2A2A2A;
     --second: #9c98a0;
+    --link: #496eb8;
 }
 
 
@@ -15,6 +17,10 @@ body {
     font-weight: 00;
     font-style: normal;
     color: var(--text);
+}
+
+a {
+    color: var(--link);
 }
 
 .page-links {
@@ -92,10 +98,20 @@ body {
     width: 65px;
     position: relative;
     top: 1.5px;
+
+    filter: drop-shadow(0 0 1px var(--text)) blur(0.1px);
 }
 
-.header-tagline {
-    font-size: 30px;
+.text {
+    font-size: 32px;
+    margin: 0;
+}
+
+.markleft-text {
+    font-size: 32px;
+}
+
+.markleft-text p {
     margin: 0;
 }
 
@@ -109,4 +125,12 @@ hr {
     border: 4px solid var(--text);
     border-radius: 5px;
     margin: 20px 0 20px 0;
+}
+
+.godot-emoji {
+    width: 35px;
+    position: relative;
+    top: 6px;
+
+    filter: brightness(150%) contrast(80%) drop-shadow(0 0 2px var(--text)) blur(0.2px);
 }

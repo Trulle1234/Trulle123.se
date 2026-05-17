@@ -7,16 +7,16 @@ export function calculateAge(): number {
 }
 
 export function toggleLanguage(pathname: string): string {
-    if (pathname.includes('/en/')) {
-        return pathname.replace('/en/', '/sv/');
-    } else if (pathname.includes('/sv/')) {
-        return pathname.replace('/sv/', '/en/');
+    if (pathname.includes('/en')) {
+        return pathname.replace('/en', '/sv');
+    } else if (pathname.includes('/sv')) {
+        return pathname.replace('/sv', '/en');
     }
     return pathname;
 }
 
 export function getLanguageLabel(pathname: string): string {
-    return pathname.includes('/en/') ? 'SV' : 'EN';
+    return pathname.includes('/en') ? 'SV' : 'EN';
 }
 
 export function getDottedLine(pathname: string, href:string): string {
