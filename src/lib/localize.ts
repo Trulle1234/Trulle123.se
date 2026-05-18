@@ -45,3 +45,7 @@ Jag är också medlem i [https://hackclub.com/](Hack Club) och har varit på tv�
 ---
 ~/Senast uppdaterad: 2026-05-17/~`,]],
 ]);
+
+export const projects: Map<string, Array<string>> = new Map([
+    ["header", ["My projects", "Mina projekt"]],
+]);
