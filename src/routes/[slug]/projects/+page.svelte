@@ -9,6 +9,15 @@
 
     let slug = $derived(page.params.slug ?? "en");
     let pathname = $derived(page.url.pathname ?? "/en/home");
+
+    let projectList = [
+        ["https://github.com/Trulle1234/Darkroom", "https://cdn.hackclub.com/019e4620-26c8-7081-8f4f-3ca6aaf18133/darkroom.png", "Darkroom", localize(projects, "darmroom-desc", slug)],
+        ["https://github.com/Trulle1234/Darkroom", "https://cdn.hackclub.com/019e4620-26c8-7081-8f4f-3ca6aaf18133/darkroom.png", "Darkroom", localize(projects, "darmroom-desc", slug)],
+        ["https://github.com/Trulle1234/Darkroom", "https://cdn.hackclub.com/019e4620-26c8-7081-8f4f-3ca6aaf18133/darkroom.png", "Darkroom", localize(projects, "darmroom-desc", slug)],
+        ["https://github.com/Trulle1234/Darkroom", "https://cdn.hackclub.com/019e4620-26c8-7081-8f4f-3ca6aaf18133/darkroom.png", "Darkroom", localize(projects, "darmroom-desc", slug)],
+        ["https://github.com/Trulle1234/Darkroom", "https://cdn.hackclub.com/019e4620-26c8-7081-8f4f-3ca6aaf18133/darkroom.png", "Darkroom", localize(projects, "darmroom-desc", slug)],
+        ["https://github.com/Trulle1234/Darkroom", "https://cdn.hackclub.com/019e4620-26c8-7081-8f4f-3ca6aaf18133/darkroom.png", "Darkroom", localize(projects, "darmroom-desc", slug)],
+    ]
 </script>
 
 <main>
@@ -31,18 +40,13 @@
         <h1 class="header">{localize(projects, "header", slug)}</h1>
 
         <div class="projects-grid">
-            <div class="project">
-                <a href="https://github.com/Trulle1234/Darkroom">Darkroom</a>
-                <p>A YWSW</p>
-            </div>
-            <div class="project">
-                <a href="https://github.com/Trulle1234/Darkroom">Darkroom</a>
-                <p>A YWSW</p>
-            </div>
-            <div class="project">
-                <a href="https://github.com/Trulle1234/Darkroom">Darkroom</a>
-                <p>A YWSW</p>
-            </div>
+            {#each projectList as [link, img, name, desc]}
+                <div class="project">
+                    <a href={link} target="_blank" class="project-title">{name}</a>
+                    <a href={link} target="_blank"><img src={img} alt={img} class="project-img"></a>
+                    <p>{desc}</p>
+                </div>
+            {/each}
         </div>
     </div>
 </main>

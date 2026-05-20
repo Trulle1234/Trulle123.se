@@ -48,4 +48,7 @@ Jag 채r ocks책 medlem i [https://hackclub.com/](Hack Club) och har varit p책 tv�
 
 export const projects: Map<string, Array<string>> = new Map([
     ["header", ["My projects", "Mina projekt"]],
+    ["darkroom-desc", 
+        ["A Hack Club \"YSWS\" where you build something photography-related and get cool photography stuff!", 
+        "En Hack Club \"YSWS\" d채r du bygger n책got fotorelaterat och f책r roliga fotografigrejer!"]],
 ]);
