@@ -89,3 +89,7 @@ export const contact: Map<string, Array<string>> = new Map([
 ---
 ~/Senast uppdaterad: 2026-05-21/~`,]],
 ]);
+
+export const blog: Map<string, Array<string>> = new Map([
+    ["header", ["My blog", "Min blogg"]],
+]);
