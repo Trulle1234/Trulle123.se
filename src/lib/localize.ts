@@ -56,6 +56,11 @@ export const projects: Map<string, Array<string>> = new Map([
         "En platformer gjord i Godot. Man spelar som en liten dator som hoppar genom ett snötäckt landskap."]],
     ["basisk-desc",
         ["BASISK is a swedish programming language with syntax partially inspired by BASIC.",
-        "BASISK är ett svenskt programmeringsspråk med syntax som är delvis inspirerat av BASIC."
-        ]]
+        "BASISK är ett svenskt programmeringsspråk med syntax som är delvis inspirerat av BASIC."]],
+    ["trulle123.se-desc",
+        ["My personal website and portfolio, the website you're on right now! Made with SvelteKit.",
+        "Min personliga hemsida och portfolio, hemsidan du är på just nu! Gjord med SvelteKit."]],
+    ["anthem-discs-desc", 
+        ["A Minecraft mod that adds national anthems as music discs.",
+        "En Minecraft mod som lägger till nationalsånger som musikskivor."]],
 ]);
