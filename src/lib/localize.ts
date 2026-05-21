@@ -64,3 +64,7 @@ export const projects: Map<string, Array<string>> = new Map([
         ["A Minecraft mod that adds national anthems as music discs.",
         "En Minecraft mod som lägger till nationalsånger som musikskivor."]],
 ]);
+
+export const contact: Map<string, Array<string>> = new Map([
+    ["", ["", ""]],
+]);

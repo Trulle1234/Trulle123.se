@@ -3,13 +3,12 @@
 </svelte:head>
 
 <script lang="ts">
-    import { page } from "$app/state";
-    import { toggleLanguage, getLanguageLabel, getDottedLine } from "$lib/main";
-    import { localize, pageLinks, contact } from "$lib/localize";
-    import { parseMarkleft } from "$lib";
+    import { getDottedLine } from "$lib/main";
+    import { localize, pageLinks } from "$lib/localize";
+	import { page } from '$app/state';
 
-    let slug = $derived(page.params.slug ?? "en");
-    let pathname = $derived(page.url.pathname ?? "/en/home");
+    let slug = "en";
+    let pathname = "/en/home";
 </script>
 
 <main>
@@ -22,15 +21,12 @@
                 <a href="blog" class={getDottedLine(pathname, "blog")}>{localize(pageLinks, "blog", slug)}</a>
                 <a href="contact" class={getDottedLine(pathname, "contact")}>{localize(pageLinks, "contact", slug)}</a>
             </div>
-
-            <a href={toggleLanguage(pathname)} class="lang-button">
-                {getLanguageLabel(pathname)}
-                <img src="https://cdn.hackclub.com/019e2be1-42bc-75c2-bed5-a02373a8d12f/globe.svg" alt="Globe" class="lang-globe">
-            </a>
         </div>
 
-        <h1 class="header">{localize(contact, "header", slug)}</h1>
+        <h1 class="header">{page.status} {page.error?.message}</h1>
 
-        <div class="markleft-text">{@html parseMarkleft(localize(contact, "text", slug)).html}</div>
+        <div class="text">
+            <a href="/en/home">Return to home?</a>
+        </div>
     </div>
 </main>

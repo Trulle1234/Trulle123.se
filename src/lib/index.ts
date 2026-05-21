@@ -4,4 +4,4 @@ export { parseMarkleft } from "./markleft-parser.js";
 
 export { toggleLanguage, getLanguageLabel } from "./main.ts"
 
-export { localize, pageLinks, redirect, home, about, projects } from "./localize.ts"
+export { localize, pageLinks, redirect, home, about, projects, contact } from "./localize.ts"
