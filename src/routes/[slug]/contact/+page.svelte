@@ -31,6 +31,6 @@
 
         <h1 class="header">{localize(contact, "header", slug)}</h1>
 
-        <div class="markleft-text">{@html parseMarkleft(localize(contact, "text", slug)).html}</div>
+        <div class="text">{@html parseMarkleft(localize(contact, "text", slug)).html}</div>
     </div>
 </main>

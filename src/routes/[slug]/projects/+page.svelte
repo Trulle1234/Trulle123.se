@@ -14,7 +14,7 @@
         ["https://github.com/Trulle1234/Darkroom", "https://cdn.hackclub.com/019e4620-26c8-7081-8f4f-3ca6aaf18133/darkroom.png", "Darkroom", localize(projects, "darkroom-desc", slug)],
         ["https://github.com/Trulle1234/SnowyCircuit", "https://cdn.hackclub.com/019e4b4a-b39a-7fdd-a9cf-a6849eb82de9/snowy-circuit.pngg", "Snowy Circuit", localize(projects, "snowy-circuit-desc", slug)],
         ["https://github.com/Trulle1234/basisk", "https://cdn.hackclub.com/019e4b76-6608-7314-a138-8d5d5123996c/basisk.png", "BASISK", localize(projects, "basisk-desc", slug)],
-        ["https://github.com/Trulle1234/Trulle123.se", "https://cdn.hackclub.com/019e4620-26c8-7081-8f4f-3ca6aaf18133/darkroom.png", "Trulle123.se", localize(projects, "trulle123.se-desc", slug)],
+        ["https://github.com/Trulle1234/Trulle123.se", "https://cdn.hackclub.com/019e4bf6-6c19-7bc4-ac5b-c7848d723eb3/trulle123se.png", "Trulle123.se", localize(projects, "trulle123.se-desc", slug)],
         ["https://github.com/Trulle1234/anthem-discs-fabric", "https://cdn.hackclub.com/019e4b7a-b33a-7f71-821f-ade1d1143970/anthem-discs.png", "Anthem Discs", localize(projects, "anthem-discs-desc", slug)],
     ])
 </script>
@@ -48,9 +48,11 @@
             {/each}
         </div>
         <div class="text">
-            <p>See <a href="https://search.shymike.dev/?q=user%3ATrulle1234">Otter - Trulle1234</a> for more of my HC projects.</p>
+        <br>
+            <p>{@html localize(projects, "see", slug)}</p>
+            <br>
             <hr>
-            <sub><em>Last updated on: 2026-05-21</em>
+            <sub><em>{localize(projects, "updated", slug)}</em>
         </sub></div>
     </div>
 </main>

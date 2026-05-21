@@ -29,21 +29,25 @@ export const about: Map<string, Array<string>> = new Map([
     ["text", 
 [`I started coding, if you can even call it that, with [https://scratch.mit.edu/](Scratch) at a young age. At 12, I began with "real" coding in the form of Python.
 .
-I'm currently into gamedev with [https://godotengine.org/](Godot) <img src="https://cdn.hackclub.com/019e36b3-06cf-7ca2-94f7-66607ad65e20/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. As well as trying to better my webdev skills.
+I'm currently into gamedev with [https://godotengine.org/](Godot) <img src="https://cdn.hackclub.com/019e36b3-06cf-7ca2-94f7-66607ad65e20/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. As well as trying to improving my webdev skills.
 .
 I am also a member of [https://hackclub.com/](Hack Club) and have attended two hackathons they organized, Shipwrecked and Midnight. 
 .
+My GitHub: [https://github.com/Trulle1234](@Trulle123)
+.
 ---
-~/Last updated on: 2026-05-17/~`,
+~/Last updated on: 2026-05-21/~`,
 
 `Jag började programmera, om man ens kan kalla det programmering, i [https://scratch.mit.edu/](Scratch) vid ung ålder. När jag var 12 började jag med "riktig" programmering i form av Python.
 .
-Just nu håller jag på med gamedev med [https://godotengine.org/](Godot) <img src="https://cdn.hackclub.com/019e36b3-06cf-7ca2-94f7-66607ad65e20/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. Jag försöker även förbättra mina färdigheter inom webdev.
+Just nu håller jag på med gamedev med [https://godotengine.org/](Godot) <img src="https://cdn.hackclub.com/019e36b3-06cf-7ca2-94f7-66607ad65e20/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. Jag försöker även bli bättre på webdev".
 .
 Jag är också medlem i [https://hackclub.com/](Hack Club) och har varit på två hackathons de organiserade, Shipwrecked och Midnight.
 .
+Min GitHub: [https://github.com/Trulle1234](@Trulle123)
+.
 ---
-~/Senast uppdaterad: 2026-05-17/~`,]],
+~/Senast uppdaterad: 2026-05-21/~`]],
 ]);
 
 export const projects: Map<string, Array<string>> = new Map([
@@ -63,8 +67,25 @@ export const projects: Map<string, Array<string>> = new Map([
     ["anthem-discs-desc", 
         ["A Minecraft mod that adds national anthems as music discs.",
         "En Minecraft mod som lägger till nationalsånger som musikskivor."]],
+    ["see", 
+        ['See <a href="https://search.shymike.dev/?q=user%3ATrulle1234">Otter</a> and <a href="https://github.com/Trulle1234">GitHub</a> for more of my projects.',
+        'Se <a href="https://search.shymike.dev/?q=user%3ATrulle1234">Otter</a> och <a href="https://github.com/Trulle1234">GitHub</a> för fler av mina projekt.']],
+    ["updated", ["Last updated on: 2026-05-21", "Senast uppdaterad: 2026-05-21"]]
 ]);
 
 export const contact: Map<string, Array<string>> = new Map([
-    ["", ["", ""]],
+    ["header", ["Contact me", "Kontakta mig"]],
+    ["text",
+[`- [https://signal.me/#eu/goDTGAVNqTIa1Yp642VrlH39yCAPhoC5XPB82hrltCBDYclhJNVC75y-sMeKiPUd](Signal) - %trulle123.15%
+- [mailto:trulle.123.contact@gmail.com](Email) - %trulle.123.contact@gmail.com%
+- [https://hackclub.enterprise.slack.com/team/U07904YUJ6A](Hack Club Slack) - %@Trulle123%
+.
+---
+~/Last updated on: 2026-05-21/~`,
+`- [https://signal.me/#eu/goDTGAVNqTIa1Yp642VrlH39yCAPhoC5XPB82hrltCBDYclhJNVC75y-sMeKiPUd](Signal) - %trulle123.15%
+- [mailto:trulle.123.contact@gmail.com](Mejl) - %trulle.123.contact@gmail.com%
+- [https://hackclub.enterprise.slack.com/team/U07904YUJ6A](Hack Club Slack) - %@Trulle123%
+.
+---
+~/Senast uppdaterad: 2026-05-21/~`,]],
 ]);
