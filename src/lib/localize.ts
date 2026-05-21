@@ -68,8 +68,8 @@ export const projects: Map<string, Array<string>> = new Map([
         ["A Minecraft mod that adds national anthems as music discs.",
         "En Minecraft mod som lägger till nationalsånger som musikskivor."]],
     ["see", 
-        ['See <a href="https://search.shymike.dev/?q=user%3ATrulle1234">Otter</a> and <a href="https://github.com/Trulle1234">GitHub</a> for more of my projects.',
-        'Se <a href="https://search.shymike.dev/?q=user%3ATrulle1234">Otter</a> och <a href="https://github.com/Trulle1234">GitHub</a> för fler av mina projekt.']],
+        ['See <a href="https://search.shymike.dev/?q=user%3ATrulle1234" target="_blank">Otter</a> and <a href="https://github.com/Trulle1234" target="_blank">GitHub</a> for more of my projects.',
+        'Se <a href="https://search.shymike.dev/?q=user%3ATrulle1234" target="_blank">Otter</a> och <a href="https://github.com/Trulle1234" target="_blank">GitHub</a> för fler av mina projekt.']],
     ["updated", ["Last updated on: 2026-05-21", "Senast uppdaterad: 2026-05-21"]]
 ]);
 
