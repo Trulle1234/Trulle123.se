@@ -49,6 +49,13 @@ Jag är också medlem i [https://hackclub.com/](Hack Club) och har varit på tv�
 export const projects: Map<string, Array<string>> = new Map([
     ["header", ["My projects", "Mina projekt"]],
     ["darkroom-desc", 
-        ["A Hack Club \"YSWS\" where you build something photography-related and get cool photography stuff!", 
-        "En Hack Club \"YSWS\" där du bygger något fotorelaterat och får roliga fotografigrejer!"]],
+        ['A Hack Club "YSWS" where you build something photography-related and get cool photography stuff!', 
+        'En Hack Club "YSWS" där du bygger något fotorelaterat och får roliga fotografigrejer!']],
+    ["snowy-circuit-desc",
+        ["A platformer made in Godot. You play as a little computer guy jumping through a snowy landscape.",
+        "En platformer gjord i Godot. Man spelar som en liten dator som hoppar genom ett snötäckt landskap."]],
+    ["basisk-desc",
+        ["BASISK is a swedish programming language with syntax partially inspired by BASIC.",
+        "BASISK är ett svenskt programmeringsspråk med syntax som är delvis inspirerat av BASIC."
+        ]]
 ]);
