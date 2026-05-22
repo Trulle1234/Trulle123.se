@@ -27,24 +27,24 @@
   let visible = $state(false);
 
   function scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  }
-
-  onMount(() => {
-    function onScroll() {
-      visible = window.scrollY > 150;
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     }
 
-    window.addEventListener('scroll', onScroll);
+    onMount(() => {
+        function onScroll() {
+            visible = window.scrollY > 150;
+        }
+
+    window.addEventListener("scroll", onScroll);
     onScroll();
 
     return () => {
-      window.removeEventListener('scroll', onScroll);
+        window.removeEventListener("scroll", onScroll);
     };
-  });
+});
 </script>
 
 <main>

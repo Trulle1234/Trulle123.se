@@ -247,3 +247,11 @@ hr {
 .to-top:hover {
     background: color-mix(in hsl, var(--text), var(--second));
 }
+
+.sad-emoji {
+    width: 40px;
+    position: relative;
+    top: 9px;
+
+    filter: drop-shadow(0 0 1.5px color-mix(in hsl, var(--text), var(--second))) blur(0.2px);
+}

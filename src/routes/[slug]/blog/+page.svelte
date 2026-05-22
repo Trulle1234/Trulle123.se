@@ -42,6 +42,10 @@
             <sup><em>{localize(blog, "sv-notice", slug)}</em></sup>
         </div>
 
+        {#if blogList == null || blogList.length === 0}
+            <div class="text"><em>{localize(blog, "no-found", slug)}</em> <img src="https://emoji.slack-edge.com/T09V59WQY1E/3d-sad-emoji/e35ee9bec8dfa875.png" class="sad-emoji" alt="Sad"></div>
+        {/if}
+        
         <div class="projects-grid">
             {#each blogList as [link, title, date, desc, img]}
                 <div class="project">

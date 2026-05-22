@@ -29,7 +29,7 @@ export const about: Map<string, Array<string>> = new Map([
     ["text", 
 [`I started coding, if you can even call it that, with [https://scratch.mit.edu/](Scratch) at a young age. At 12, I began with "real" coding in the form of Python.
 .
-I'm currently into gamedev with [https://godotengine.org/](Godot) <img src="https://cdn.hackclub.com/019e36b3-06cf-7ca2-94f7-66607ad65e20/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. As well as trying to improving my webdev skills.
+I'm currently into gamedev with [https://godotengine.org/](Godot) <img src="https://cdn.hackclub.com/019e36b3-06cf-7ca2-94f7-66607ad65e20/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. As well as trying to improve my webdev skills.
 .
 I am also a member of [https://hackclub.com/](Hack Club) and have attended two hackathons they organized, Shipwrecked and Midnight. 
 .
@@ -57,7 +57,7 @@ export const projects: Map<string, Array<string>> = new Map([
         'En Hack Club "YSWS" där du bygger något fotorelaterat och får roliga fotografigrejer!']],
     ["markleft-desc",
         ["A Markdown-like markup language with added features and adjusted syntax. It's used for much of this site.",
-        "Ett Markdown liknande markup språk med tillagda features och justerad syntax. Den används för en stor del av denna hemsida."]],
+        "Ett Markdown liknande markup språk med tillagda funktioner och justerad syntax. Det används för en stor del av denna hemsida."]],
     ["snowy-circuit-desc",
         ["A platformer made in Godot. You play as a little computer guy jumping through a snowy landscape.",
         "En platformer gjord i Godot. Man spelar som en liten dator som hoppar genom ett snötäckt landskap."]],
@@ -95,5 +95,6 @@ export const contact: Map<string, Array<string>> = new Map([
 
 export const blog: Map<string, Array<string>> = new Map([
     ["header", ["My blog", "Min blogg"]],
-    ["sv-notice", ["", "Bloggen är endast tillgänglig på engelska."]]
+    ["sv-notice", ["", "Bloggen är endast tillgänglig på engelska."]],
+    ["no-found", ["No posts found.", "Inga inlägg hittades."]]
 ]);
