@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Trulle123.se • Home</title>
+    <title>Trulle123.se • {slug === "en" ? "Projects" : "Projekt"}</title>
 </svelte:head>
 
 <script lang="ts">
@@ -12,6 +12,7 @@
 
     let projectList = $derived([
         ["https://github.com/Trulle1234/Darkroom", "https://cdn.hackclub.com/019e4620-26c8-7081-8f4f-3ca6aaf18133/darkroom.png", "Darkroom", localize(projects, "darkroom-desc", slug)],
+        ["https://github.com/Trulle1234/Markleft", "https://cdn.hackclub.com/019e50d3-b015-726b-80af-5da8b11fb26c/markleft.png", "Markleft", localize(projects, "markleft-desc", slug)],
         ["https://github.com/Trulle1234/SnowyCircuit", "https://cdn.hackclub.com/019e4b4a-b39a-7fdd-a9cf-a6849eb82de9/snowy-circuit.pngg", "Snowy Circuit", localize(projects, "snowy-circuit-desc", slug)],
         ["https://github.com/Trulle1234/basisk", "https://cdn.hackclub.com/019e4b76-6608-7314-a138-8d5d5123996c/basisk.png", "BASISK", localize(projects, "basisk-desc", slug)],
         ["https://github.com/Trulle1234/Trulle123.se", "https://cdn.hackclub.com/019e4bf6-6c19-7bc4-ac5b-c7848d723eb3/trulle123se.png", "Trulle123.se", localize(projects, "trulle123.se-desc", slug)],
@@ -43,7 +44,7 @@
                 <div class="project">
                     <a href={link} target="_blank" class="project-title">{name}</a>
                     <a href={link} target="_blank"><img src={img} alt={img} class="project-img"></a>
-                    <p>{desc}</p>
+                    <p>{@html desc}</p>
                 </div>
             {/each}
         </div>

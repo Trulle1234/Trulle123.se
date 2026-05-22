@@ -1,15 +1,23 @@
 <svelte:head>
-    <title>Trulle123.se • Home</title>
+    <title>Trulle123.se • {slug === "en" ? "Blog" : "Blogg"}</title>
 </svelte:head>
 
 <script lang="ts">
     import { page } from "$app/state";
     import { toggleLanguage, getLanguageLabel, getDottedLine } from "$lib/main";
     import { localize, pageLinks, blog } from "$lib/localize";
-    import { parseMarkleft } from "$lib";
+    import type { BlogListItem } from "./+page";
+
+    let { data } = $props<{
+        data: {
+            blogList: BlogListItem[];
+        };
+    }>();
 
     let slug = $derived(page.params.slug ?? "en");
     let pathname = $derived(page.url.pathname ?? "/en/home");
+
+    let blogList = $derived(data.blogList);
 </script>
 
 <main>
@@ -30,5 +38,20 @@
         </div>
 
         <h1 class="header">{localize(blog, "header", slug)}</h1>
+        <div class="text">
+            <sup><em>{localize(blog, "sv-notice", slug)}</em></sup>
+        </div>
+
+        <div class="projects-grid">
+            {#each blogList as [link, title, date, desc, img]}
+                <div class="project">
+                    <a href={"/" + slug + link} class="project-title">{title}</a>
+                    <a href={"/" + slug + link}><img src={img} alt={img} class="project-img"></a>
+
+                    <p>{desc}</p>
+                    <sub class="blog-date"><em>{date}</em></sub>
+                </div>
+            {/each}
+        </div>
     </div>
 </main>

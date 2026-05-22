@@ -13,7 +13,7 @@ body {
     
     font-family: "JetBrains Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: 00;
+    font-weight: 400;
     font-style: normal;
     color: var(--text);
 }
@@ -133,7 +133,7 @@ hr {
 .projects-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: flex-start;
     gap: 30px;
     margin: 10px 0;
 }
@@ -177,4 +177,26 @@ hr {
     transform: translateY(-4px) translateX(35px);
 
     filter: drop-shadow(0 0 1px color-mix(in hsl, var(--text), var(--second))) blur(0.1px);
+}
+
+.blog-date {
+    display: block;
+    text-align: left;
+    width: 97%;
+}
+
+.blog-img {
+    width: 460px;
+    border-radius: 3px;
+    object-fit: cover;
+    box-shadow: 1px 0.5px 4px color-mix(in hsl, var(--text), var(--second));
+}
+
+.blog-text {
+    font-size: 18px;
+    margin: 0;
+}
+
+.blog-text * {
+    margin: 0;
 }

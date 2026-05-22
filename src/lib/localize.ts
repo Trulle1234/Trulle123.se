@@ -55,6 +55,9 @@ export const projects: Map<string, Array<string>> = new Map([
     ["darkroom-desc", 
         ['A Hack Club "YSWS" where you build something photography-related and get cool photography stuff!', 
         'En Hack Club "YSWS" där du bygger något fotorelaterat och får roliga fotografigrejer!']],
+    ["markleft-desc",
+        ["A Markdown-like markup language with added features and adjusted syntax. It's used for much of this site.",
+        "Ett Markdown liknande markup språk med tillagda features och justerad syntax. Den används för en stor del av denna hemsida."]],
     ["snowy-circuit-desc",
         ["A platformer made in Godot. You play as a little computer guy jumping through a snowy landscape.",
         "En platformer gjord i Godot. Man spelar som en liten dator som hoppar genom ett snötäckt landskap."]],
@@ -70,7 +73,7 @@ export const projects: Map<string, Array<string>> = new Map([
     ["see", 
         ['See <a href="https://search.shymike.dev/?q=user%3ATrulle1234" target="_blank">Otter</a> and <a href="https://github.com/Trulle1234" target="_blank">GitHub</a> for more of my projects.',
         'Se <a href="https://search.shymike.dev/?q=user%3ATrulle1234" target="_blank">Otter</a> och <a href="https://github.com/Trulle1234" target="_blank">GitHub</a> för fler av mina projekt.']],
-    ["updated", ["Last updated on: 2026-05-21", "Senast uppdaterad: 2026-05-21"]]
+    ["updated", ["Last updated on: 2026-05-22", "Senast uppdaterad: 2026-05-22"]]
 ]);
 
 export const contact: Map<string, Array<string>> = new Map([
@@ -92,4 +95,5 @@ export const contact: Map<string, Array<string>> = new Map([
 
 export const blog: Map<string, Array<string>> = new Map([
     ["header", ["My blog", "Min blogg"]],
+    ["sv-notice", ["", "Bloggen är endast tillgänglig på engelska."]]
 ]);

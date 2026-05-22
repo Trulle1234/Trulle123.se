@@ -4,7 +4,7 @@ export function load({ params }) {
     const validSlugs = ["en", "sv"];
 
     if (!validSlugs.includes(params.slug)) {
-        throw error(404, "Unsupported language");
+        throw error(404, "Not found");
     }
 
     return {

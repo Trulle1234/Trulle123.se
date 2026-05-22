@@ -1,12 +1,12 @@
 <svelte:head>
-    <title>Trulle123.se • Home</title>
+    <title>Trulle123.se • {slug === "en" ? "Contact" : "Kontakt"}</title>
 </svelte:head>
 
 <script lang="ts">
     import { page } from "$app/state";
     import { toggleLanguage, getLanguageLabel, getDottedLine } from "$lib/main";
     import { localize, pageLinks, contact } from "$lib/localize";
-    import { parseMarkleft } from "$lib";
+    import { parseMarkleft } from "$lib/markleft-parser";
 
     let slug = $derived(page.params.slug ?? "en");
     let pathname = $derived(page.url.pathname ?? "/en/home");
