@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Trulle123.se • Home</title>
+    <title>Trulle123.se • Error</title>
 </svelte:head>
 
 <script lang="ts">
