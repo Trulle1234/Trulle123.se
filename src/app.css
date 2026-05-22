@@ -88,13 +88,15 @@ a {
     font-weight: 900;
 
     margin-bottom: 0;
+    display: inline-flex;
 }
 
 .wave-emoji {
     height: 45px;
     width: 65px;
-    position: relative;
-    top: 1.5px;
+
+    line-height: 0;
+    transform: translateY(4px) translateX(30px);
 
     filter: drop-shadow(0 0 1px color-mix(in hsl, var(--text), var(--second))) blur(0.1px);
 }
@@ -166,4 +168,13 @@ hr {
     border-radius: 3px;
     object-fit: cover;
     box-shadow: 1px 0.5px 4px color-mix(in hsl, var(--text), var(--second));
+}
+
+.error-emoji {
+    width: 75px;
+
+    line-height: 0;
+    transform: translateY(-4px) translateX(35px);
+
+    filter: drop-shadow(0 0 1px color-mix(in hsl, var(--text), var(--second))) blur(0.1px);
 }
