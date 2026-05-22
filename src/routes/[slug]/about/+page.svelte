@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Trulle123.se • {slug === "en" ? "About" : "Om"}</title>
+    <title>Trulle123.se • {localize(pageLinks, "about", slug)}</title>
 </svelte:head>
 
 <script lang="ts">
