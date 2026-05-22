@@ -18,18 +18,30 @@ body {
     color: var(--text);
 }
 
+::-webkit-scrollbar {
+    width: 14px;
+    height: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: color-mix(in hsl, var(--second), var(--bg));
+    border-radius: 6px;
+    cursor: pointer;
+}
+
 a {
     color: var(--link);
 }
 
 .page-links {
     font-size: 30px;
-    word-spacing: 15px;
+    word-spacing: 16px;
     
     position: absolute;
-    left: 35px;
     top: 32px;
     
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .page-links a {
@@ -66,6 +78,9 @@ a {
     var(--ol-size)      var(--neg-ol-size)  0 var(--bg),
     var(--neg-ol-size)  var(--neg-ol-size)  0 var(--bg),
     var(--ol-size)      var(--ol-size)      0 var(--bg);
+
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .lang-globe {
@@ -199,4 +214,36 @@ hr {
 
 .blog-text * {
     margin: 0;
+}
+
+.to-top {
+    position: fixed;
+    right: 42px;
+    bottom: 32px;
+    width: 55px;
+    height: 55px;
+
+    border: none;
+    border-radius: 999px;
+
+    background: color-mix(in hsl, var(--second), var(--bg));
+    color: var(--bg);
+    font-size: 28px;
+    z-index: 999;
+    box-shadow: -0.5px 1px 3px color-mix(in hsl, var(--text), var(--second));
+
+    cursor: pointer;
+
+    display: inline-block;
+    transform: rotate(-90deg);
+
+    transition:
+        background-color 150ms ease,
+        color 150ms ease,
+        box-shadow 150ms ease,
+        transform 150ms ease;
+}
+
+.to-top:hover {
+    background: color-mix(in hsl, var(--text), var(--second));
 }

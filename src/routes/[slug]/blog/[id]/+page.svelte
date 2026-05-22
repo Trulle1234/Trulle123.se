@@ -6,6 +6,8 @@
     import { page } from "$app/state";
     import { toggleLanguage, getLanguageLabel, getDottedLine } from "$lib/main";
     import { localize, pageLinks } from "$lib/localize";
+    import { onMount } from "svelte";
+    import { blur } from "svelte/transition";
 
     let { data } = $props<{
         data: {
@@ -21,6 +23,28 @@
 
     let slug = $derived(page.params.slug ?? "en");
     let pathname = $derived(page.url.pathname ?? "/en/home");
+
+  let visible = $state(false);
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
+  onMount(() => {
+    function onScroll() {
+      visible = window.scrollY > 150;
+    }
+
+    window.addEventListener('scroll', onScroll);
+    onScroll();
+
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+    };
+  });
 </script>
 
 <main>
@@ -55,4 +79,8 @@
             </div>
         </article>
     </div>
+
+    {#if visible}
+        <button class="to-top" type="button" aria-label="return to top" onclick={scrollToTop} transition:blur>➜</button>
+    {/if}
 </main>
