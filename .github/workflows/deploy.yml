@@ -28,7 +28,7 @@ jobs:
 
       - name: Build
         env:
-          BASE_PATH: '/'
+          BASE_PATH: ''
         run: npm run build
 
       - name: Upload artifact
