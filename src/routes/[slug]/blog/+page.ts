@@ -1,5 +1,11 @@
 import { parseMarkleft } from "$lib/markleft-parser";
 
+export const prerender = true;
+
+export function entries() {
+	return [{ slug: "en" }, { slug: "sv" }];
+}
+
 type BlogMetadata = {
     title?: string;
     date?: string;
