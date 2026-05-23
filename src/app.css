@@ -209,12 +209,10 @@ hr {
 
 .blog-text {
 	font-size: 18px;
-	margin: 0;
 	white-space: normal;
 }
 
 .blog-text * {
-	margin: 0;
 	white-space: normal;
 }
 
