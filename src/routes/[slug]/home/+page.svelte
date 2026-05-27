@@ -83,28 +83,42 @@
             </a>
 
 
-
             <a href="https://hackclub.com/" target="_blank">
                 <img src="/hackclub.png" alt="Hack Club">
             </a>
+
             <a href="https://www.wikipedia.org/" target="_blank">
                 <img src="/wikipedia.gif" alt="Wikipedia">
             </a>
+
             <a href="https://archive.org/" target="_blank">
                 <img src="/internet-archive.gif" alt="Internet Archive">
             </a>
+
             <a href="https://godotengine.org/" target="_blank">
-                <img src="/godot.gif" alt="Godot">
+                <img src="/godot.gif" alt="Godot Now!">
             </a>
+
+            <img src="/html.gif" alt="Learn HTML">
+
             <a href="https://code.visualstudio.com/" target="_blank">
-                <img src="/vscode.png" alt="VS Code">
+                <img src="/vscode.png" alt="Made with VS Code">
             </a>
+
+            <img src="/css.gif" alt="Made with CSS"/>
+
+            <img src="/eyes.gif" alt="Best viewed with eyes"/>
+
+            <a href="https://code.visualstudio.com/" target="_blank">
+                <img src="/mit.gif" alt="MIT Licence">
+            </a>
+
             <a href="https://fightchatcontrol.eu/" target="_blank">
-                <img src="/internetprivacy.gif" alt="Internet privacy">
+                <img src="/internetprivacy.gif" alt="Internet privacy now!">
             </a>
-            <a href="https://europa.eu/" target="_blank">
-                <img src="/eu.gif" alt="EU">
-            </a>
+
+            <img src="/eu.gif" alt="I love the EU">
+            
         </div>
     </div>
 </main>
