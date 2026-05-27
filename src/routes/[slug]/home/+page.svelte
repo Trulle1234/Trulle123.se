@@ -78,7 +78,7 @@
             <br>
             <br>
             
-            <a href="https://v1c.rocks/">
+            <a href="https://v1c.rocks/" target="_blank">
                 <img src="https://v1c.rocks/88x31.png" alt="Vic">
             </a>
 
