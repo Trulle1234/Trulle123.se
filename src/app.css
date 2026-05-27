@@ -137,6 +137,11 @@ hr {
     margin: 20px 0 20px 0;
 }
 
+.copy-button {
+    all: unset;
+    cursor: pointer;
+}
+
 .godot-emoji {
     width: 35px;
     position: relative;

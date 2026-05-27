@@ -22,6 +22,8 @@ export const home: Map<string, Array<string>> = new Map([
     ["text-p2", 
         ["-year-old from Sweden who likes coding and photography.",
         "-åring från Sverige som gillar programmering och fotografi."]],
+    ["copy", ["Click to copy:", "Klicka för att kopiera:"]],
+    ["copied", ["HTML copied!", "HTML kopierad!"]]
 ]);
 
 export const about: Map<string, Array<string>> = new Map([
