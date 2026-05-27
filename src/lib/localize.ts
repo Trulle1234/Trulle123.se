@@ -33,7 +33,7 @@ export const about: Map<string, Array<string>> = new Map([
 .
 I'm currently into gamedev with [https://godotengine.org/](Godot) <img src="/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. As well as trying to improve my webdev skills.
 .
-I am also a member of [https://hackclub.com/](Hack Club) and have attended two hackathons they organized, Shipwrecked and Midnight. 
+I am also a member of [https://hackclub.com/](Hack Club) and have attended two hackathons they organized, [https://shipwrecked.hackclub.com/](Shipwrecked) and [https://midnight.hackclub.com/](Midnight). 
 .
 My GitHub: [https://github.com/Trulle1234](@Trulle123)
 .
@@ -44,7 +44,7 @@ My GitHub: [https://github.com/Trulle1234](@Trulle123)
 .
 Just nu håller jag på med gamedev med [https://godotengine.org/](Godot) <img src="/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. Jag försöker även bli bättre på webdev".
 .
-Jag är också medlem i [https://hackclub.com/](Hack Club) och har varit på två hackathons de organiserade, Shipwrecked och Midnight.
+Jag är också medlem i [https://hackclub.com/](Hack Club) och har varit på två hackathons de organiserade, [https://shipwrecked.hackclub.com/](Shipwrecked) och [https://midnight.hackclub.com/](Midnight).
 .
 Min GitHub: [https://github.com/Trulle1234](@Trulle123)
 .

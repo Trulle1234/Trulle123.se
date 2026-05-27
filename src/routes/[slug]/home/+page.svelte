@@ -79,12 +79,12 @@
             <br>
             
             <a href="https://v1c.rocks/" target="_blank">
-                <img src="https://v1c.rocks/88x31.png" alt="Vic">
+                <img src="/vic.png" alt="Vic">
             </a>
 
 
 
-            <a href="https:/hackclub.com/" target="_blank">
+            <a href="https://hackclub.com/" target="_blank">
                 <img src="/hackclub.png" alt="Hack Club">
             </a>
             <a href="https://www.wikipedia.org/" target="_blank">

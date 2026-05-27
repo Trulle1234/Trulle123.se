@@ -25,7 +25,7 @@
 
             <a href={toggleLanguage(pathname)} class="lang-button">
                 {getLanguageLabel(pathname)}
-                <img src="https://cdn.hackclub.com/019e2be1-42bc-75c2-bed5-a02373a8d12f/globe.svg" alt="Globe" class="lang-globe">
+                <img src="/globe.svg" alt="Globe" class="lang-globe">
             </a>
         </div>
 
