@@ -83,8 +83,27 @@
             </a>
 
 
-            <a href="https://www.wikipedia.org/">
-                <img src="/wikipedia.gif" alt="Vic">
+
+            <a href="https:/hackclub.com/" target="_blank">
+                <img src="/hackclub.png" alt="Hack Club">
+            </a>
+            <a href="https://www.wikipedia.org/" target="_blank">
+                <img src="/wikipedia.gif" alt="Wikipedia">
+            </a>
+            <a href="https://archive.org/" target="_blank">
+                <img src="/internet-archive.gif" alt="Internet Archive">
+            </a>
+            <a href="https://godotengine.org/" target="_blank">
+                <img src="/godot.gif" alt="Godot">
+            </a>
+            <a href="https://code.visualstudio.com/" target="_blank">
+                <img src="/vscode.png" alt="VS Code">
+            </a>
+            <a href="https://fightchatcontrol.eu/" target="_blank">
+                <img src="/internetprivacy.gif" alt="Internet privacy">
+            </a>
+            <a href="https://europa.eu/" target="_blank">
+                <img src="/eu.gif" alt="EU">
             </a>
         </div>
     </div>
