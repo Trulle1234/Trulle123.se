@@ -33,7 +33,7 @@
 
             <a href={toggleLanguage(pathname)} class="lang-button">
                 {getLanguageLabel(pathname)}
-                <img src="https://cdn.hackclub.com/019e2be1-42bc-75c2-bed5-a02373a8d12f/globe.svg" alt="Globe" class="lang-globe">
+                <img src="/globe.svg" alt="Globe" class="lang-globe">
             </a>
         </div>
 
@@ -43,7 +43,7 @@
         </div>
 
         {#if blogList == null || blogList.length === 0}
-            <div class="text"><em>{localize(blog, "no-found", slug)}</em> <img src="https://emoji.slack-edge.com/T09V59WQY1E/3d-sad-emoji/e35ee9bec8dfa875.png" class="sad-emoji" alt="Sad"></div>
+            <div class="text"><em>{localize(blog, "no-found", slug)}</em> <img src="/sad-emoji.png" class="sad-emoji" alt="Sad"></div>
         {/if}
         
         <div class="projects-grid">

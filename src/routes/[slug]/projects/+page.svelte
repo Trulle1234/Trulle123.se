@@ -11,12 +11,12 @@
     let pathname = $derived(page.url.pathname ?? "/en/home");
 
     let projectList = $derived([
-        ["https://github.com/Trulle1234/Darkroom", "https://cdn.hackclub.com/019e4620-26c8-7081-8f4f-3ca6aaf18133/darkroom.png", "Darkroom", localize(projects, "darkroom-desc", slug)],
-        ["https://github.com/Trulle1234/Markleft", "https://cdn.hackclub.com/019e50d3-b015-726b-80af-5da8b11fb26c/markleft.png", "Markleft", localize(projects, "markleft-desc", slug)],
-        ["https://github.com/Trulle1234/SnowyCircuit", "https://cdn.hackclub.com/019e4b4a-b39a-7fdd-a9cf-a6849eb82de9/snowy-circuit.pngg", "Snowy Circuit", localize(projects, "snowy-circuit-desc", slug)],
-        ["https://github.com/Trulle1234/basisk", "https://cdn.hackclub.com/019e4b76-6608-7314-a138-8d5d5123996c/basisk.png", "BASISK", localize(projects, "basisk-desc", slug)],
-        ["https://github.com/Trulle1234/Trulle123.se", "https://cdn.hackclub.com/019e4bf6-6c19-7bc4-ac5b-c7848d723eb3/trulle123se.png", "Trulle123.se", localize(projects, "trulle123.se-desc", slug)],
-        ["https://github.com/Trulle1234/anthem-discs-fabric", "https://cdn.hackclub.com/019e4b7a-b33a-7f71-821f-ade1d1143970/anthem-discs.png", "Anthem Discs", localize(projects, "anthem-discs-desc", slug)],
+        ["https://github.com/Trulle1234/Darkroom", "/darkroom.webp", "Darkroom", localize(projects, "darkroom-desc", slug)],
+        ["https://github.com/Trulle1234/Markleft", "/markleft.webp", "Markleft", localize(projects, "markleft-desc", slug)],
+        ["https://github.com/Trulle1234/SnowyCircuit", "/snowy-circuit.webp", "Snowy Circuit", localize(projects, "snowy-circuit-desc", slug)],
+        ["https://github.com/Trulle1234/basisk", "/basisk.webp", "BASISK", localize(projects, "basisk-desc", slug)],
+        ["https://github.com/Trulle1234/Trulle123.se", "/trulle123se.webp", "Trulle123.se", localize(projects, "trulle123.se-desc", slug)],
+        ["https://github.com/Trulle1234/anthem-discs-fabric", "/anthem-discs.webp", "Anthem Discs", localize(projects, "anthem-discs-desc", slug)],
     ])
 </script>
 
@@ -33,7 +33,7 @@
 
             <a href={toggleLanguage(pathname)} class="lang-button">
                 {getLanguageLabel(pathname)}
-                <img src="https://cdn.hackclub.com/019e2be1-42bc-75c2-bed5-a02373a8d12f/globe.svg" alt="Globe" class="lang-globe">
+                <img src="/globe.svg" alt="Globe" class="lang-globe">
             </a>
         </div>
 

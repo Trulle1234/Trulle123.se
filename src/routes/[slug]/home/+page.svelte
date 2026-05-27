@@ -18,7 +18,7 @@
     async function copy() {
         var text =
 `<a href="https://www.trulle123.se/" >
-    <img src="https://www.trulle123.se/88x31.png" alt="Trulle123" title="Trulle123" />
+    <img src="https://www.trulle123.se/88x31.png" alt="Trulle123" />
 </a>`;
 
         await navigator.clipboard.writeText(text);
@@ -52,14 +52,14 @@
 
             <a href={toggleLanguage(pathname)} class="lang-button">
                 {getLanguageLabel(pathname)}
-                <img src="https://cdn.hackclub.com/019e2be1-42bc-75c2-bed5-a02373a8d12f/globe.svg" alt="Globe" class="lang-globe">
+                <img src="/globe.svg" alt="Globe" class="lang-globe">
             </a>
         </div>
 
         <h1 class="header">
             {localize(home, "header", slug)}
             <img
-                src="https://cdn.hackclub.com/019e36b2-f8c4-7788-acbb-2e9368143db1/hii.gif"
+                src="/hii.webp"
                 alt="Wave"
                 class="wave-emoji"
             />
@@ -67,12 +67,25 @@
 
         <p class="text">{localize(home, "text-p1", slug)} <span class="age">{yearsAgo.toFixed(9)}</span>{localize(home, "text-p2", slug)}</p>
         <hr>
-        
-        <button class="copy-button" onclick={copy}>
-            <em>{copied ? localize(home, "copied", slug) : localize(home, "copy", slug)}</em>
-            <br>
-            <img src="/88x31.png" alt="Trulle123" title="Trulle123" />
-        </button>
 
+        <div class="buttons">
+            <button class="copy-button" onclick={copy}>
+                <em>{copied ? localize(home, "copied", slug) : localize(home, "copy", slug)}</em>
+                <br>
+                <img src="/88x31.png" alt="Trulle123"/>
+            </button>          
+            
+            <br>
+            <br>
+            
+            <a href="https://v1c.rocks/">
+                <img src="https://v1c.rocks/88x31.png" alt="Vic">
+            </a>
+
+
+            <a href="https://www.wikipedia.org/">
+                <img src="/wikipedia.gif" alt="Vic">
+            </a>
+        </div>
     </div>
 </main>

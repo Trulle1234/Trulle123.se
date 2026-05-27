@@ -25,7 +25,7 @@
 
         <h1 class="header">
             {page.status} {page.error?.message}
-            <a href="/en/home"><img src="https://cdn.hackclub.com/019e50d4-53dc-7884-96ee-fc84fa4c354c/error.gif" alt="Error" class="error-emoji"></a>
+            <a href="/en/home"><img src="/error.webp" alt="Error" class="error-emoji"></a>
         </h1> 
 
         <div class="text">

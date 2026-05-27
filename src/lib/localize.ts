@@ -22,7 +22,7 @@ export const home: Map<string, Array<string>> = new Map([
     ["text-p2", 
         ["-year-old from Sweden who likes coding and photography.",
         "-åring från Sverige som gillar programmering och fotografi."]],
-    ["copy", ["Click to copy:", "Klicka för att kopiera:"]],
+    ["copy", ["My 88x31, Click to copy:", "Min 88x31, Klicka för att kopiera:"]],
     ["copied", ["HTML copied!", "HTML kopierad!"]]
 ]);
 
@@ -31,7 +31,7 @@ export const about: Map<string, Array<string>> = new Map([
     ["text", 
 [`I started coding, if you can even call it that, with [https://scratch.mit.edu/](Scratch) at a young age. At 12, I began with "real" coding in the form of Python.
 .
-I'm currently into gamedev with [https://godotengine.org/](Godot) <img src="https://cdn.hackclub.com/019e36b3-06cf-7ca2-94f7-66607ad65e20/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. As well as trying to improve my webdev skills.
+I'm currently into gamedev with [https://godotengine.org/](Godot) <img src="/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. As well as trying to improve my webdev skills.
 .
 I am also a member of [https://hackclub.com/](Hack Club) and have attended two hackathons they organized, Shipwrecked and Midnight. 
 .
@@ -42,7 +42,7 @@ My GitHub: [https://github.com/Trulle1234](@Trulle123)
 
 `Jag började programmera, om man ens kan kalla det programmering, i [https://scratch.mit.edu/](Scratch) vid ung ålder. När jag var 12 började jag med "riktig" programmering i form av Python.
 .
-Just nu håller jag på med gamedev med [https://godotengine.org/](Godot) <img src="https://cdn.hackclub.com/019e36b3-06cf-7ca2-94f7-66607ad65e20/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. Jag försöker även bli bättre på webdev".
+Just nu håller jag på med gamedev med [https://godotengine.org/](Godot) <img src="/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. Jag försöker även bli bättre på webdev".
 .
 Jag är också medlem i [https://hackclub.com/](Hack Club) och har varit på två hackathons de organiserade, Shipwrecked och Midnight.
 .
