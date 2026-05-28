@@ -82,6 +82,9 @@
                 <img src="/vic.png" alt="Vic">
             </a>
 
+            <a href="https://ingo.au/" target="_blank">
+                <img src="/ingo.png" alt="Ingo Wolf">
+            </a>
 
             <a href="https://hackclub.com/" target="_blank">
                 <img src="/hackclub.png" alt="Hack Club">
@@ -95,10 +98,13 @@
                 <img src="/internet-archive.gif" alt="Internet Archive">
             </a>
 
-            <a href="https://godotengine.org/" target="_blank">
+            <a href="https://www.affinity.studio/" target="_blank">
                 <img src="/godot.gif" alt="Godot Now!">
             </a>
 
+            <a href="https://www.affinity.studio/" target="_blank">
+                <img src="/affinity.png" alt="Affinity Now!">
+            </a>
             <img src="/html.gif" alt="Learn HTML">
 
             <a href="https://code.visualstudio.com/" target="_blank">
@@ -109,7 +115,7 @@
 
             <img src="/eyes.gif" alt="Best viewed with eyes"/>
 
-            <a href="https://code.visualstudio.com/" target="_blank">
+            <a href="https://github.com/Trulle1234/Trulle123.se/blob/main/LICENSE" target="_blank">
                 <img src="/mit.gif" alt="MIT Licence">
             </a>
 
