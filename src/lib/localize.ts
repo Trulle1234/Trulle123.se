@@ -42,7 +42,7 @@ My GitHub: [https://github.com/Trulle1234](@Trulle123)
 
 `Jag började programmera, om man ens kan kalla det programmering, i [https://scratch.mit.edu/](Scratch) vid ung ålder. När jag var 12 började jag med "riktig" programmering i form av Python.
 .
-Just nu håller jag på med gamedev med [https://godotengine.org/](Godot) <img src="/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. Jag försöker även bli bättre på webdev".
+Just nu håller jag på med gamedev med [https://godotengine.org/](Godot) <img src="/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. Jag försöker även bli bättre på webdev.
 .
 Jag är också medlem i [https://hackclub.com/](Hack Club) och har varit på två hackathons de organiserade, [https://shipwrecked.hackclub.com/](Shipwrecked) och [https://midnight.hackclub.com/](Midnight).
 .
@@ -64,7 +64,7 @@ export const projects: Map<string, Array<string>> = new Map([
         ["A platformer made in Godot. You play as a little computer guy jumping through a snowy landscape.",
         "En platformer gjord i Godot. Man spelar som en liten dator som hoppar genom ett snötäckt landskap."]],
     ["basisk-desc",
-        ["BASISK is a swedish programming language with syntax partially inspired by BASIC.",
+        ["BASISK is a Swedish programming language with syntax partially inspired by BASIC.",
         "BASISK är ett svenskt programmeringsspråk med syntax som är delvis inspirerat av BASIC."]],
     ["trulle123.se-desc",
         ["My personal website and portfolio, the website you're on right now! Made with SvelteKit.",
