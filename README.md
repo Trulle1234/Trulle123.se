@@ -29,3 +29,10 @@ npm run dev
 ```
 
 Finally go to http://localhost:5173
+
+---
+
+**_AI was used in parts for:_**
+- _Typescript code_
+- _Spell and grammar checks_
+- _Help with SvelteKit features_
