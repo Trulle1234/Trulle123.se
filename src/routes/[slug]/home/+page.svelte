@@ -98,7 +98,7 @@
                 <img src="/internet-archive.gif" alt="Internet Archive">
             </a>
 
-            <a href="https://www.affinity.studio/" target="_blank">
+            <a href="https://godotengine.org/" target="_blank">
                 <img src="/godot.gif" alt="Godot Now!">
             </a>
 
