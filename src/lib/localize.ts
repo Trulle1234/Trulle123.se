@@ -31,7 +31,7 @@ export const about: Map<string, Array<string>> = new Map([
     ["text", 
 [`I started coding, if you can even call it that, with [https://scratch.mit.edu/](Scratch) at a young age. At 12, I began with "real" coding in the form of Python.
 .
-I'm currently into gamedev with [https://godotengine.org/](Godot) <img src="/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. As well as trying to improve my webdev skills.
+I'm currently into gamedev with [https://godotengine.org/](Godot) <img src="/godot-spin.gif" alt="Godot spin emoji" class="godot-emoji"/>. As well as trying to improve my webdev skills.
 .
 I am also a member of [https://hackclub.com/](Hack Club) and have attended two hackathons they organized, [https://shipwrecked.hackclub.com/](Shipwrecked) and [https://midnight.hackclub.com/](Midnight). 
 .
@@ -42,7 +42,7 @@ My GitHub: [https://github.com/Trulle1234](@Trulle123)
 
 `Jag började programmera, om man ens kan kalla det programmering, i [https://scratch.mit.edu/](Scratch) vid ung ålder. När jag var 12 började jag med "riktig" programmering i form av Python.
 .
-Just nu håller jag på med gamedev med [https://godotengine.org/](Godot) <img src="/godot-spin.gif" alt="Godot Spin" class="godot-emoji"/>. Jag försöker även bli bättre på webdev.
+Just nu håller jag på med gamedev med [https://godotengine.org/](Godot) <img src="/godot-spin.gif" alt="Godot spin emoji" class="godot-emoji"/>. Jag försöker även bli bättre på webdev.
 .
 Jag är också medlem i [https://hackclub.com/](Hack Club) och har varit på två hackathons de organiserade, [https://shipwrecked.hackclub.com/](Shipwrecked) och [https://midnight.hackclub.com/](Midnight).
 .

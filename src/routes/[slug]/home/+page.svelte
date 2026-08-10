@@ -60,7 +60,7 @@
             {localize(home, "header", slug)}
             <img
                 src="/hii.webp"
-                alt="Wave"
+                alt="Wave emoji"
                 class="wave-emoji"
             />
         </h1>
