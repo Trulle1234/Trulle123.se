@@ -4,7 +4,7 @@ My personal website, built with SvelteKit.
 
 <a href="https://www.trulle123.se/">
   <img
-    src="https://cdn.hackclub.com/019e7f6d-52df-7131-a190-b7c1830fee35/sk__rmbild_2026-05-31_210444.png"
+    src="https://cdn.hackclub.com/019e897b-f502-7386-888a-57cf93a162e0/trulle123se.gif"
     alt="Screenshot of Trulle123.se"
     width="450"
   />
