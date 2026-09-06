@@ -33,23 +33,23 @@ export const about: Map<string, Array<string>> = new Map([
 .
 I'm currently into gamedev with [https://godotengine.org/](Godot) <img src="/godot-spin.gif" alt="Godot spin emoji" class="godot-emoji"/>. As well as trying to improve my webdev skills.
 .
-I am also a member of [https://hackclub.com/](Hack Club) and have attended two hackathons they organized, [https://shipwrecked.hackclub.com/](Shipwrecked) and [https://midnight.hackclub.com/](Midnight). 
+I am also a member of [https://hackclub.com/](Hack Club) and have attended three hackathons they organized, [https://shipwrecked.hackclub.com/](Shipwrecked), [https://midnight.hackclub.com/](Midnight) and [https://horizons.hackclub.com/](Horizons Europa). 
 .
 My GitHub: [https://github.com/Trulle1234](@Trulle123)
 .
 ---
-~/Last updated on: 2026-05-21/~`,
+~/Last updated: 2026-09-06/~`,
 
 `Jag började programmera, om man ens kan kalla det programmering, i [https://scratch.mit.edu/](Scratch) vid ung ålder. När jag var 12 började jag med "riktig" programmering i form av Python.
 .
 Just nu håller jag på med gamedev med [https://godotengine.org/](Godot) <img src="/godot-spin.gif" alt="Godot spin emoji" class="godot-emoji"/>. Jag försöker även bli bättre på webdev.
 .
-Jag är också medlem i [https://hackclub.com/](Hack Club) och har varit på två hackathons de organiserade, [https://shipwrecked.hackclub.com/](Shipwrecked) och [https://midnight.hackclub.com/](Midnight).
+Jag är också medlem i [https://hackclub.com/](Hack Club) och har varit på två hackathons de organiserade, [https://shipwrecked.hackclub.com/](Shipwrecked), [https://midnight.hackclub.com/](Midnight) och [https://horizons.hackclub.com/](Horizons Europa).
 .
 Min GitHub: [https://github.com/Trulle1234](@Trulle123)
 .
 ---
-~/Senast uppdaterad: 2026-05-21/~`]],
+~/Senast uppdaterad: 2026-09-06/~`]],
 ]);
 
 export const projects: Map<string, Array<string>> = new Map([
@@ -75,24 +75,22 @@ export const projects: Map<string, Array<string>> = new Map([
     ["see", 
         ['See <a href="https://search.shymike.dev/?q=user%3ATrulle1234" target="_blank">Otter</a> and <a href="https://github.com/Trulle1234" target="_blank">GitHub</a> for more of my projects.',
         'Se <a href="https://search.shymike.dev/?q=user%3ATrulle1234" target="_blank">Otter</a> och <a href="https://github.com/Trulle1234" target="_blank">GitHub</a> för fler av mina projekt.']],
-    ["updated", ["Last updated on: 2026-05-22", "Senast uppdaterad: 2026-05-22"]]
+    ["updated", ["Last updated: 2026-05-22", "Senast uppdaterad: 2026-05-22"]]
 ]);
 
 export const contact: Map<string, Array<string>> = new Map([
     ["header", ["Contact me", "Kontakta mig"]],
     ["text",
 [`- [https://signal.me/#eu/goDTGAVNqTIa1Yp642VrlH39yCAPhoC5XPB82hrltCBDYclhJNVC75y-sMeKiPUd](Signal) - %trulle123.15%
-- [mailto:trulle.123.contact@gmail.com](Email) - %trulle.123.contact@gmail.com%
 - [https://hackclub.enterprise.slack.com/team/U07904YUJ6A](Hack Club Slack) - %@Trulle123%
 .
 ---
-~/Last updated on: 2026-05-21/~`,
+~/Last updated: 2026-09-06/~`,
 `- [https://signal.me/#eu/goDTGAVNqTIa1Yp642VrlH39yCAPhoC5XPB82hrltCBDYclhJNVC75y-sMeKiPUd](Signal) - %trulle123.15%
-- [mailto:trulle.123.contact@gmail.com](Mejl) - %trulle.123.contact@gmail.com%
 - [https://hackclub.enterprise.slack.com/team/U07904YUJ6A](Hack Club Slack) - %@Trulle123%
 .
 ---
-~/Senast uppdaterad: 2026-05-21/~`,]],
+~/Senast uppdaterad: 2026-09-06/~`,]],
 ]);
 
 export const blog: Map<string, Array<string>> = new Map([
