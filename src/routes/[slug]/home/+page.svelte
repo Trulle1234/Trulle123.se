@@ -1,10 +1,10 @@
 <svelte:head>
 	<title>Trulle123.se • {localize(pageLinks, "home", slug)}</title>
-
 	<meta
 		name="description"
 		content={`${localize(home, "text-p1", slug)} ${yearsAgo.toFixed(9).replace(".", slug == "sv" ? "," : ".")} ${localize(home, "text-p2", slug)}`}
     />
+    <meta name="google-site-verification" content="yvrzBqZBXXKNpRVZ7YTPTYg9sdFCFDzjhDx5Qb5F7bk"/>
 </svelte:head>
 
 <script lang="ts">
