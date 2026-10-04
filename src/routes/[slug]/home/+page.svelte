@@ -1,5 +1,10 @@
 <svelte:head>
-    <title>Trulle123.se • {localize(pageLinks, "home", slug)}</title>
+	<title>Trulle123.se • {localize(pageLinks, "home", slug)}</title>
+
+	<meta
+		name="description"
+		content={`${localize(home, "text-p1", slug)} ${yearsAgo.toFixed(9).replace(".", slug == "sv" ? "," : ".")} ${localize(home, "text-p2", slug)}`}
+    />
 </svelte:head>
 
 <script lang="ts">
@@ -65,7 +70,7 @@
             />
         </h1>
 
-        <p class="text">{localize(home, "text-p1", slug)} <span class="age">{yearsAgo.toFixed(9)}</span>{localize(home, "text-p2", slug)}</p>
+        <p class="text">{localize(home, "text-p1", slug)} <span class="age">{yearsAgo.toFixed(9).replace(".", slug == "sv" ? "," : ".")}</span>{localize(home, "text-p2", slug)}</p>
         <hr>
 
         <div class="buttons">
