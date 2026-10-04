@@ -86,12 +86,24 @@
                 <img src="/ingo.png" alt="Ingo Wolf">
             </a>
 
-            <a href="https://hackclub.com/" target="_blank">
+            <a href="https://aregus.me/" target="_blank">
+                <img src="/areg.gif" alt="Areg">
+            </a>
+
+            <a href="https://aregus.me/" target="_blank">
+                <img src="/codingcorner.png" alt="Kyle Codingcorner">
+            </a>
+
+            <a href="https://www.codingcorner.dev/" target="_blank">
                 <img src="/hackclub.png" alt="Hack Club">
             </a>
 
             <a href="https://www.wikipedia.org/" target="_blank">
                 <img src="/wikipedia.gif" alt="Wikipedia">
+            </a>
+
+            <a href="https://www.firefox.com/" target="_blank">
+                <img src="/firefox.png" alt="Firefox">
             </a>
 
             <a href="https://archive.org/" target="_blank">
