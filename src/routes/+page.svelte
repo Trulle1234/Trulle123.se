@@ -1,6 +1,5 @@
 <svelte:head>
     <title>Trulle123.se</title>
-    <meta name="google-site-verification" content="yvrzBqZBXXKNpRVZ7YTPTYg9sdFCFDzjhDx5Qb5F7bk"/>
 </svelte:head>
 
 <script lang="ts">
